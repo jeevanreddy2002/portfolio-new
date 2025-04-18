@@ -1,0 +1,138 @@
+{
+  "personal_info": {
+    "name": "Bala Showri Jeevan Reddy Arlagadda",
+    "summary": "AWS - certified Python Developer with 7+ years of expertise in backend development and machine learning, focusing on building scalable, high-performance systems. Proficient in leveraging Python frameworks and tools to design and implement intelligent, data-driven solutions."
+  },
+  "tech_stack": [
+    "including NLP for sentiment analysis",
+    "time-series modeling for forecasting",
+    "Programming Languages: Python",
+    "C/C++",
+    "JavaScript",
+    "Database/OS: MySQL",
+    "PostgreSQL",
+    "Snowflake",
+    "Oracle",
+    "Linux/Unix Systems",
+    "Data Processing & ETL: ETL Pipelines",
+    "Data Annotation",
+    "Data Labeling",
+    "Synthetic Data Generation",
+    "Frameworks: TensorFlow",
+    "Keras",
+    "Scipy",
+    "SpaCy",
+    "Scikit-learn/sklearn",
+    "Pandas",
+    "NumPy",
+    "Matplotlib",
+    "Seaborn",
+    "AI Development: Deep Learning",
+    "Machine Learning",
+    "AI Model Training",
+    "Fine-Tuning",
+    "Bias Detection",
+    "Ranking",
+    "Optimization",
+    "NLP",
+    "CNNs",
+    "Transformers",
+    "BERT",
+    "LLM-based Models",
+    "AI Dataset Management",
+    "Data Preprocessing",
+    "Feature Engineering",
+    "Web Development: Flask",
+    "Django",
+    "RESTful Web Services",
+    "GraphQL Development",
+    "Web Sockets",
+    "Asynchronous Processing",
+    "Tools/Software: Tableau",
+    "H20.ai",
+    "Chart.js",
+    "D3.js",
+    "Power BI",
+    "Pytorch",
+    "JSON",
+    "GitHub",
+    "Development platform: Visual studio code",
+    "PyCharm",
+    "Sublime text",
+    "Spyder",
+    "Google Colab",
+    "Jupyter notebook",
+    "Cloud platform: AWS (ECS",
+    "Lambda",
+    "SageMaker)",
+    "Google Cloud Platform (Vertex AI)",
+    "Azure",
+    "Specializations: Object-Oriented Programming",
+    "Deep Learning",
+    "Monitoring: Prometheus",
+    "Grafana"
+  ],
+  "projects": [
+    {
+      "title": "Project 1",
+      "description": "Project description placeholder",
+      "technologies": [],
+      "details": []
+    },
+    {
+      "title": "Project 2",
+      "description": "Project description placeholder",
+      "technologies": [],
+      "details": []
+    },
+    {
+      "title": "Project 3",
+      "description": "Project description placeholder",
+      "technologies": [],
+      "details": []
+    },
+    {
+      "title": "Project 4",
+      "description": "Project description placeholder",
+      "technologies": [],
+      "details": []
+    }
+  ],
+  "education": [
+    {
+      "institution": "University of Florida, Gainesville\tFlorida, USA",
+      "degree": "",
+      "date": "",
+      "details": []
+    },
+    {
+      "institution": "Master of Science, Computer Science and Engineering",
+      "degree": "",
+      "date": "",
+      "details": []
+    },
+    {
+      "institution": "Amity University, Noida\tUttar Pradesh, INDIA",
+      "degree": "",
+      "date": "",
+      "details": []
+    },
+    {
+      "institution": "Bachelor of Technology, Artificial Intelligence",
+      "degree": "",
+      "date": "",
+      "details": []
+    }
+  ],
+  "experience": [
+    {
+      "position": "Role: Sr. Software Developer",
+      "company": "",
+      "date": "",
+      "details": []
+    }
+  ],
+  "contact": {
+    "email": "balashowrijeevan4@gmail.com | +1 (352)-363-1174 | LinkedIn | portfolio | medium"
+  }
+}

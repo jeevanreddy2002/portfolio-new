@@ -1,0 +1,680 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jeevan Reddy Arlagadda - Portfolio</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- AOS Animation Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation Menu -->
+    <nav class="navbar">
+        <div class="navbar-container">
+            <div class="logo">
+                <span class="logo-text">&lt;JR/&gt;</span>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                <li class="nav-item"><a href="#tech-stack" class="nav-link">Tech Stack</a></li>
+                <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+                <li class="nav-item"><a href="#" class="nav-link download-cv">Download CV</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Theme Toggle Button -->
+    <div class="theme-toggle">
+        <button id="themeToggle" aria-label="Toggle dark/light theme">
+            <i class="fas fa-moon"></i>
+            <i class="fas fa-sun"></i>
+        </button>
+    </div>
+
+    <!-- Home Section -->
+    <section id="home" class="home-section">
+        <div class="container">
+            <div class="home-content">
+                <div class="home-text">
+                    <h1 class="glitch-text" data-text="Hello, I'm Jeevan">Hello, I'm Jeevan</h1>
+                    <h2 class="typing-text"></h2>
+                    <p>AWS - certified Python Developer with 7+ years of expertise in backend development and machine learning</p>
+                    <div class="cta-buttons">
+                        <a href="#about" class="btn primary-btn">Explore My Work</a>
+                        <a href="#contact" class="btn secondary-btn">Get In Touch</a>
+                    </div>
+                </div>
+                <div class="home-image">
+                    <div class="profile-container">
+                        <img src="assets/profile.jpg" alt="Jeevan Reddy Arlagadda" class="profile-image">
+                    </div>
+                    <div class="code-container">
+                        <pre><code>
+class <span class="highlight">Developer</span>:
+    def __init__(self):
+        self.name = "Jeevan Reddy"
+        self.role = "Python Developer"
+        self.experience = "7+ years"
+        self.skills = ["Python", "ML", "AWS"]
+        
+    def say_hello(self):
+        return "Welcome to my portfolio!"
+        
+me = Developer()
+print(me.say_hello())
+                        </code></pre>
+                    </div>
+                </div>
+            </div>
+            <div class="scroll-down">
+                <span>Scroll Down</span>
+                <i class="fas fa-chevron-down"></i>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title"><span class="highlight">&lt;</span> About Me <span class="highlight">/&gt;</span></h2>
+                <div class="underline"></div>
+            </div>
+            <div class="about-content" data-aos="fade-up" data-aos-delay="200">
+                <div class="about-text">
+                    <p>AWS - certified Python Developer with 7+ years of expertise in backend development and machine learning, focusing on building scalable, high-performance systems. Proficient in leveraging Python frameworks and tools to design and implement intelligent, data-driven solutions.</p>
+                    <div class="about-stats">
+                        <div class="stat-item">
+                            <h3>7+</h3>
+                            <p>Years Experience</p>
+                        </div>
+                        <div class="stat-item">
+                            <h3>50+</h3>
+                            <p>Technologies</p>
+                        </div>
+                        <div class="stat-item">
+                            <h3>AWS</h3>
+                            <p>Certified</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="terminal">
+                        <div class="terminal-header">
+                            <div class="terminal-buttons">
+                                <span class="terminal-btn close"></span>
+                                <span class="terminal-btn minimize"></span>
+                                <span class="terminal-btn maximize"></span>
+                            </div>
+                            <div class="terminal-title">jeevan@developer: ~</div>
+                        </div>
+                        <div class="terminal-body">
+                            <p><span class="terminal-prompt">$</span> whoami</p>
+                            <p>Bala Showri Jeevan Reddy Arlagadda</p>
+                            <p><span class="terminal-prompt">$</span> cat skills.txt</p>
+                            <p>Python, Machine Learning, AWS, Backend Development</p>
+                            <p><span class="terminal-prompt">$</span> python -c "print('Hello, World!')"</p>
+                            <p>Hello, World!</p>
+                            <p><span class="terminal-prompt">$</span> _</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tech Stack Section -->
+    <section id="tech-stack" class="section">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title"><span class="highlight">&lt;</span> Tech Stack <span class="highlight">/&gt;</span></h2>
+                <div class="underline"></div>
+            </div>
+            <div class="tech-categories" data-aos="fade-up" data-aos-delay="200">
+                <div class="category-tabs">
+                    <button class="category-tab active" data-category="all">All</button>
+                    <button class="category-tab" data-category="languages">Languages</button>
+                    <button class="category-tab" data-category="frameworks">Frameworks</button>
+                    <button class="category-tab" data-category="databases">Databases</button>
+                    <button class="category-tab" data-category="tools">Tools</button>
+                    <button class="category-tab" data-category="cloud">Cloud</button>
+                </div>
+            </div>
+            <div class="tech-grid" data-aos="fade-up" data-aos-delay="300">
+                <!-- Languages -->
+                <div class="tech-tile" data-category="languages">
+                    <i class="fab fa-python"></i>
+                    <h3>Python</h3>
+                </div>
+                <div class="tech-tile" data-category="languages">
+                    <i class="fab fa-js"></i>
+                    <h3>JavaScript</h3>
+                </div>
+                <div class="tech-tile" data-category="languages">
+                    <i class="fas fa-code"></i>
+                    <h3>C/C++</h3>
+                </div>
+                <div class="tech-tile" data-category="languages">
+                    <i class="fas fa-code"></i>
+                    <h3>JSON</h3>
+                </div>
+                
+                <!-- Frameworks -->
+                <div class="tech-tile" data-category="frameworks">
+                    <i class="fab fa-django"></i>
+                    <h3>Django</h3>
+                </div>
+                <div class="tech-tile" data-category="frameworks">
+                    <i class="fas fa-flask"></i>
+                    <h3>Flask</h3>
+                </div>
+                <div class="tech-tile" data-category="frameworks">
+                    <i class="fas fa-brain"></i>
+                    <h3>TensorFlow</h3>
+                </div>
+                <div class="tech-tile" data-category="frameworks">
+                    <i class="fas fa-fire"></i>
+                    <h3>PyTorch</h3>
+                </div>
+                <div class="tech-tile" data-category="frameworks">
+                    <i class="fas fa-chart-bar"></i>
+                    <h3>Scikit-learn</h3>
+                </div>
+                <div class="tech-tile" data-category="frameworks">
+                    <i class="fas fa-table"></i>
+                    <h3>Pandas</h3>
+                </div>
+                <div class="tech-tile" data-category="frameworks">
+                    <i class="fas fa-calculator"></i>
+                    <h3>NumPy</h3>
+                </div>
+                <div class="tech-tile" data-category="frameworks">
+                    <i class="fas fa-chart-line"></i>
+                    <h3>Matplotlib</h3>
+                </div>
+                <div class="tech-tile" data-category="frameworks">
+                    <i class="fas fa-chart-area"></i>
+                    <h3>Seaborn</h3>
+                </div>
+                <div class="tech-tile" data-category="frameworks">
+                    <i class="fas fa-calculator"></i>
+                    <h3>SciPy</h3>
+                </div>
+                <div class="tech-tile" data-category="frameworks">
+                    <i class="fas fa-comment-alt"></i>
+                    <h3>SpaCy</h3>
+                </div>
+                <div class="tech-tile" data-category="frameworks">
+                    <i class="fas fa-robot"></i>
+                    <h3>Keras</h3>
+                </div>
+                <div class="tech-tile" data-category="frameworks">
+                    <i class="fas fa-project-diagram"></i>
+                    <h3>GraphQL</h3>
+                </div>
+                <div class="tech-tile" data-category="frameworks">
+                    <i class="fas fa-exchange-alt"></i>
+                    <h3>RESTful APIs</h3>
+                </div>
+                <div class="tech-tile" data-category="frameworks">
+                    <i class="fas fa-bolt"></i>
+                    <h3>WebSockets</h3>
+                </div>
+                
+                <!-- AI/ML -->
+                <div class="tech-tile" data-category="frameworks">
+                    <i class="fas fa-brain"></i>
+                    <h3>Deep Learning</h3>
+                </div>
+                <div class="tech-tile" data-category="frameworks">
+                    <i class="fas fa-language"></i>
+                    <h3>NLP</h3>
+                </div>
+                <div class="tech-tile" data-category="frameworks">
+                    <i class="fas fa-network-wired"></i>
+                    <h3>CNNs</h3>
+                </div>
+                <div class="tech-tile" data-category="frameworks">
+                    <i class="fas fa-robot"></i>
+                    <h3>Transformers</h3>
+                </div>
+                <div class="tech-tile" data-category="frameworks">
+                    <i class="fas fa-comment"></i>
+                    <h3>BERT</h3>
+                </div>
+                <div class="tech-tile" data-category="frameworks">
+                    <i class="fas fa-robot"></i>
+                    <h3>LLM Models</h3>
+                </div>
+                <div class="tech-tile" data-category="frameworks">
+                    <i class="fas fa-cogs"></i>
+                    <h3>XGBoost</h3>
+                </div>
+                
+                <!-- Databases -->
+                <div class="tech-tile" data-category="databases">
+                    <i class="fas fa-database"></i>
+                    <h3>MySQL</h3>
+                </div>
+                <div class="tech-tile" data-category="databases">
+                    <i class="fas fa-database"></i>
+                    <h3>PostgreSQL</h3>
+                </div>
+                <div class="tech-tile" data-category="databases">
+                    <i class="fas fa-snowflake"></i>
+                    <h3>Snowflake</h3>
+                </div>
+                <div class="tech-tile" data-category="databases">
+                    <i class="fas fa-database"></i>
+                    <h3>Oracle</h3>
+                </div>
+                <div class="tech-tile" data-category="databases">
+                    <i class="fas fa-database"></i>
+                    <h3>Redis</h3>
+                </div>
+                
+                <!-- Tools -->
+                <div class="tech-tile" data-category="tools">
+                    <i class="fab fa-github"></i>
+                    <h3>GitHub</h3>
+                </div>
+                <div class="tech-tile" data-category="tools">
+                    <i class="fas fa-code"></i>
+                    <h3>VS Code</h3>
+                </div>
+                <div class="tech-tile" data-category="tools">
+                    <i class="fas fa-chart-pie"></i>
+                    <h3>Tableau</h3>
+                </div>
+                <div class="tech-tile" data-category="tools">
+                    <i class="fas fa-chart-bar"></i>
+                    <h3>Power BI</h3>
+                </div>
+                <div class="tech-tile" data-category="tools">
+                    <i class="fas fa-laptop-code"></i>
+                    <h3>Jupyter</h3>
+                </div>
+                <div class="tech-tile" data-category="tools">
+                    <i class="fas fa-code"></i>
+                    <h3>PyCharm</h3>
+                </div>
+                <div class="tech-tile" data-category="tools">
+                    <i class="fas fa-code"></i>
+                    <h3>Sublime Text</h3>
+                </div>
+                <div class="tech-tile" data-category="tools">
+                    <i class="fas fa-code"></i>
+                    <h3>Spyder</h3>
+                </div>
+                <div class="tech-tile" data-category="tools">
+                    <i class="fas fa-laptop-code"></i>
+                    <h3>Google Colab</h3>
+                </div>
+                <div class="tech-tile" data-category="tools">
+                    <i class="fas fa-chart-line"></i>
+                    <h3>D3.js</h3>
+                </div>
+                <div class="tech-tile" data-category="tools">
+                    <i class="fas fa-chart-bar"></i>
+                    <h3>Chart.js</h3>
+                </div>
+                <div class="tech-tile" data-category="tools">
+                    <i class="fas fa-water"></i>
+                    <h3>H2O.ai</h3>
+                </div>
+                <div class="tech-tile" data-category="tools">
+                    <i class="fas fa-tachometer-alt"></i>
+                    <h3>Grafana</h3>
+                </div>
+                <div class="tech-tile" data-category="tools">
+                    <i class="fas fa-fire-alt"></i>
+                    <h3>Prometheus</h3>
+                </div>
+                <div class="tech-tile" data-category="tools">
+                    <i class="fab fa-docker"></i>
+                    <h3>Docker</h3>
+                </div>
+                
+                <!-- Cloud -->
+                <div class="tech-tile" data-category="cloud">
+                    <i class="fab fa-aws"></i>
+                    <h3>AWS</h3>
+                </div>
+                <div class="tech-tile" data-category="cloud">
+                    <i class="fab fa-aws"></i>
+                    <h3>AWS Lambda</h3>
+                </div>
+                <div class="tech-tile" data-category="cloud">
+                    <i class="fab fa-aws"></i>
+                    <h3>AWS ECS</h3>
+                </div>
+                <div class="tech-tile" data-category="cloud">
+                    <i class="fab fa-aws"></i>
+                    <h3>AWS SageMaker</h3>
+                </div>
+                <div class="tech-tile" data-category="cloud">
+                    <i class="fab fa-google"></i>
+                    <h3>GCP</h3>
+                </div>
+                <div class="tech-tile" data-category="cloud">
+                    <i class="fab fa-google"></i>
+                    <h3>Vertex AI</h3>
+                </div>
+                <div class="tech-tile" data-category="cloud">
+                    <i class="fab fa-microsoft"></i>
+                    <h3>Azure</h3>
+                </div>
+                
+                <!-- OS -->
+                <div class="tech-tile" data-category="tools">
+                    <i class="fab fa-linux"></i>
+                    <h3>Linux/Unix</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title"><span class="highlight">&lt;</span> Projects <span class="highlight">/&gt;</span></h2>
+                <div class="underline"></div>
+            </div>
+            <div class="projects-grid" data-aos="fade-up" data-aos-delay="200">
+                <!-- Project 1 -->
+                <div class="project-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="project-content">
+                        <div class="project-tags">
+                            <span>Machine Learning</span>
+                            <span>Python</span>
+                            <span>Django</span>
+                            <span>AWS</span>
+                        </div>
+                        <h3 class="project-title">AI-Driven Dynamic Pricing Engine</h3>
+                        <p class="project-description">
+                            Developed an AI-Driven Dynamic Pricing Engine for e-commerce platforms, utilizing Scikit-learn and XGBoost to predict optimal prices based on historical sales, demand patterns, and inventory levels. Integrated reinforcement learning for real-time pricing adjustments, enhancing revenue and competitiveness.
+                        </p>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>Scikit-learn</span>
+                            <span>XGBoost</span>
+                            <span>Django REST</span>
+                            <span>Docker</span>
+                            <span>AWS ECS</span>
+                            <span>Redis</span>
+                            <span>MySQL</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                            <a href="#" class="project-link"><i class="fab fa-github"></i> Source Code</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project 2 -->
+                <div class="project-card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="project-content">
+                        <div class="project-tags">
+                            <span>AI</span>
+                            <span>Machine Learning</span>
+                            <span>Python</span>
+                        </div>
+                        <h3 class="project-title">AI Training System</h3>
+                        <p class="project-description">
+                            Developed a scalable AI training system to improve the accuracy, reliability, and contextual understanding of AI-generated code responses. Designed automated evaluation and ranking processes to assess AI outputs, identify inconsistencies, and refine learning models.
+                        </p>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>PyTorch</span>
+                            <span>TensorFlow</span>
+                            <span>Scikit-learn</span>
+                            <span>GraphQL</span>
+                            <span>Redis</span>
+                            <span>AWS SageMaker</span>
+                            <span>GCP Vertex AI</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                            <a href="#" class="project-link"><i class="fab fa-github"></i> Source Code</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project 3 -->
+                <div class="project-card" data-aos="fade-up" data-aos-delay="500">
+                    <div class="project-content">
+                        <div class="project-tags">
+                            <span>IoT</span>
+                            <span>Predictive Maintenance</span>
+                            <span>Machine Learning</span>
+                        </div>
+                        <h3 class="project-title">Predictive Maintenance System</h3>
+                        <p class="project-description">
+                            Developed a Predictive Maintenance System for Industrial IoT to optimize equipment uptime and reduce maintenance costs. The system analyzed sensor data from machinery using TensorFlow and Scikit-learn to predict failures, schedule maintenance, and minimize downtime.
+                        </p>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>FastAPI</span>
+                            <span>TensorFlow</span>
+                            <span>PyTorch</span>
+                            <span>PostgreSQL</span>
+                            <span>Redis</span>
+                            <span>Docker</span>
+                            <span>Kubernetes</span>
+                            <span>AWS ECS</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                            <a href="#" class="project-link"><i class="fab fa-github"></i> Source Code</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project 4 -->
+                <div class="project-card" data-aos="fade-up" data-aos-delay="600">
+                    <div class="project-content">
+                        <div class="project-tags">
+                            <span>SaaS</span>
+                            <span>Multi-tenant</span>
+                            <span>Cloud</span>
+                        </div>
+                        <h3 class="project-title">Multi-tenant SaaS Platform</h3>
+                        <p class="project-description">
+                            Built a multi-tenant SaaS platform to support multiple clients with data separation using a smart database design. Designed APIs to allow client-specific features and faster response times with improved data caching. Used cloud services to ensure the system could grow with demand and stay reliable.
+                        </p>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>FastAPI</span>
+                            <span>PostgreSQL</span>
+                            <span>Redis</span>
+                            <span>Docker</span>
+                            <span>Kubernetes</span>
+                            <span>AWS ECS</span>
+                            <span>Prometheus</span>
+                            <span>Grafana</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                            <a href="#" class="project-link"><i class="fab fa-github"></i> Source Code</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="section">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title"><span class="highlight">&lt;</span> Education <span class="highlight">/&gt;</span></h2>
+                <div class="underline"></div>
+            </div>
+            <div class="education-timeline" data-aos="fade-up" data-aos-delay="200">
+                <div class="timeline">
+                    <!-- Education 1 -->
+                    <div class="timeline-item" data-aos="fade-up" data-aos-delay="300">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <div class="education-card">
+                                <div class="education-icon">
+                                    <i class="fas fa-graduation-cap"></i>
+                                </div>
+                                <h3>Master of Science</h3>
+                                <h4>Computer Science and Engineering</h4>
+                                <p class="institution">University of Florida, Gainesville</p>
+                                <p class="location">Florida, USA</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Education 2 -->
+                    <div class="timeline-item" data-aos="fade-up" data-aos-delay="400">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <div class="education-card">
+                                <div class="education-icon">
+                                    <i class="fas fa-graduation-cap"></i>
+                                </div>
+                                <h3>Bachelor of Technology</h3>
+                                <h4>Artificial Intelligence</h4>
+                                <p class="institution">Amity University, Noida</p>
+                                <p class="location">Uttar Pradesh, INDIA</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Certifications -->
+                    <div class="timeline-item" data-aos="fade-up" data-aos-delay="500">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <div class="education-card">
+                                <div class="education-icon">
+                                    <i class="fas fa-certificate"></i>
+                                </div>
+                                <h3>AWS Certified</h3>
+                                <h4>Developer Associate</h4>
+                                <p class="institution">Amazon Web Services</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title"><span class="highlight">&lt;</span> Contact Me <span class="highlight">/&gt;</span></h2>
+                <div class="underline"></div>
+            </div>
+            <div class="contact-content" data-aos="fade-up" data-aos-delay="200">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h3>Email</h3>
+                            <p>balashowrijeevan4@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h3>Phone</h3>
+                            <p>+1 (352)-363-1174</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fab fa-linkedin"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h3>LinkedIn</h3>
+                            <p><a href="https://www.linkedin.com/in/arlagadda-jeevan-reddy/" target="_blank">Connect with me</a></p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fab fa-medium"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h3>Medium</h3>
+                            <p><a href="https://medium.com/@jeevanr.arlagadda" target="_blank">Read my articles</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" name="subject" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn primary-btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <span class="logo-text">&lt;JR/&gt;</span>
+                </div>
+                <div class="footer-social">
+                    <a href="https://github.com/jeevanreddy2002" class="social-link" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/arlagadda-jeevan-reddy/" class="social-link" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://medium.com/@jeevanr.arlagadda" class="social-link" target="_blank"><i class="fab fa-medium"></i></a>
+                </div>
+                <div class="footer-download">
+                    <a href="#" class="btn secondary-btn download-cv">
+                        <i class="fas fa-download"></i> Download CV
+                    </a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Jeevan Reddy Arlagadda. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
